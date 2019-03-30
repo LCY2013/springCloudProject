@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lcydream.project</groupId>
+    <artifactId>springcloud</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-boot-colud-1.5.18</module>
+        <module>spring-boot-colud-demo</module>
+        <module>spring-cloud-config-client</module>
+        <module>spring-cloud-config-client-demo</module>
+        <module>spring-cloud-config-server-demo</module>
+        <module>spring-cloud-eureka-server-demo</module>
+        <module>spring-cloud-eureka-client-demo</module>
+        <module>spring-cloud-hystrix-client-demo</module>
+        <module>spring-cloud-hystrix-dashboard-demo</module>
+        <module>spring-cloud-hystrix-turbine-demo</module>
+        <module>spring-cloud-feign-demo</module>
+        <module>spring-cloud-zuul-demo</module>
+        <module>spring-cloud-stream-kafka-demo</module>
+        <module>spring-cloud-stream-kafka1.5.18-demo</module>
+        <module>spring-cloud-stream-rabbit-demo</module>
+        <module>spring-cloud-sleuth-demo</module>
+        <module>spring-cloud-zipkin-server-demo</module>
+    </modules>
+</project>

@@ -1,0 +1,15 @@
+package com.lcydream.project.springcloudconfigclient;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author LuoCY
+ */
+@SpringBootApplication
+public class SpringCloudConfigClientApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudConfigClientApplication.class, args);
+	}
+}
